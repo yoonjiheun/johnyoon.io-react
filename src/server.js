@@ -5,6 +5,12 @@ const app = express ();
 
 app.use(express.static(__dirname + '/assets'));
 
+app.use((req, res, next) => {
+  if(req.url != '/' && req.method == 'GET')
+    res.redirect('/');
+    next();
+});
+
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/assets/page/page.html');
 });

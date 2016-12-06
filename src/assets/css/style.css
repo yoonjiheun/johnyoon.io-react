@@ -137,7 +137,7 @@ a {
 }
 
 .right-sidebar {
-  right: 0;
+  right: -50%;
 }
 
 .right-sidebar ul {
