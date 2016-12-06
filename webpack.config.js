@@ -1,9 +1,9 @@
-const production =  { path: 'dist/assets/react', filename: 'app.bundle.js' }
-const dev = { publicPath: 'http://localhost:8080/react', filename: 'app.bundle.js' }
+const production =  { path: 'dist/assets/react', filename: 'app.bundle.js' };
+const dev = { publicPath: 'http://localhost:8080/react', filename: 'app.bundle.js' };
 
 module.exports = {
   'entry': './src/assets/react/app.js',
-  'output': (process.env.NODE_ENV !== 'production') ? dev : production,
+  'output': production,
   'module': {
     'loaders': [
       {

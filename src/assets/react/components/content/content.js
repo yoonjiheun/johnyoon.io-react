@@ -1,13 +1,14 @@
 import React from 'react';
 import Image from './image';
 import Detail from './detail';
+import _ from 'underscore';
 
 export default class Content extends React.Component {
-  render() {
+  render () {
     return (
-      <div className="content-wrap">
-            <Image image={this.props.image}/>
-            <Detail header={this.props.detailHeader} detail={this.props.detail}/>
+      <div className="content-wrap" id={this.props.id}>
+            <Image image={this.props.img}/>
+            <Detail header={this.props.header} details={this.props.details}/>
       </div>
     )
   }

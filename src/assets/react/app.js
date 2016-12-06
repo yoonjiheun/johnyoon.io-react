@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './components/header/header';
 import Sidebar from './components/sidebar/sidebar';
-import Content from './components/content/content';
+import ContentList from './components/content/content-list';
+import Footer from './components/footer/footer';
 
 class App extends React.Component {
   constructor () {
@@ -54,8 +55,9 @@ class App extends React.Component {
       <div>
         <Header/>
         <Sidebar side="left" header="EXPERIENCE" content={this.state.experience}/>
-        <Sidebar side="right" header="CONTACT US" content={this.state.contact}/>
-        <Content />
+        <Sidebar side="right" header="CONTACT ME" content={this.state.contact}/>
+        <ContentList/>
+        <Footer />
       </div>
     )
   }

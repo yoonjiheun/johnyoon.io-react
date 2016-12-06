@@ -21,23 +21,23 @@ export default class Header extends React.Component {
       },{
         key: 2,
         text: 'ABOUT',
-        go: '/about'
+        go: '#ABOUT'
       },{
         key: 3,
         text: 'EDUCATION',
-        go: '/education'
+        go: '#EDUCATION'
       },{
         key: 4,
         text: 'SKILLS',
-        go: '/skills'
+        go: '#SKILLS'
       },{
         key: 5,
         text: 'EXPERIENCE',
-        go: '/experience'
+        go: '#EXPERIENCE'
       }, {
         key: 6,
         text: 'INTEREST',
-        go: '/interest'
+        go: '#INTEREST'
       }]
     }
   }

@@ -6,7 +6,9 @@
   "scripts": {
     "dev-server": "nodemon --exec babel-node src/server.js",
     "dev-client": "webpack-dev-server --content-base src/assets --inline --hot",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "prestart": "babel src --out-dir dist --copy-files  --ignore src/assets/react/*.js && webpack",
+    "start": "NODE_ENV=production node dist/server.js"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +27,7 @@
   "dependencies": {
     "express": "^4.14.0",
     "react": "^15.4.1",
-    "react-dom": "^15.4.1"
+    "react-dom": "^15.4.1",
+    "underscore": "^1.8.3"
   }
 }
