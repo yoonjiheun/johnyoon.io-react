@@ -11,8 +11,10 @@ export default class Text extends React.Component {
 
   chooseTag (props) {
     if(props.go == null)
-      return <p className="no-hover" href={this.props.go}>{ this.props.text }</p>
-    return <p className="texts" href={this.props.go} onClick={this.handleClick.bind(this)}>{ this.props.text }</p>
+      return <p className="no-hover">{ props.text }</p>
+    if(props.go == '/resume')
+      return <a className="texts" href={props.go}>{props.text}</a>
+    return <p className="texts" href={props.go} onClick={this.handleClick.bind(this)}>{ props.text }</p>
   }
   render () {
     return (
