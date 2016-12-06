@@ -193,6 +193,11 @@ a {
   left: 0;
 }
 
+.footer p {
+  padding-top: 5px;
+  text-align: center;
+}
+
 @media screen and (min-width: 1500px) {
   h1 {
     font-size: 5em;
