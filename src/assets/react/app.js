@@ -13,6 +13,7 @@ class App extends React.Component {
         key: 1,
         header: 'Pype, Inc',
         position: 'Software Developer',
+        duration: 'Dec. 2015 - May 2016',
         desc: [
           'Created an internal web-based application with a UX Designer to help the support team to automate internal tasks.',
           'Used AngularJS in conjunction with JQuery to build a simple and intuitive UI.',
@@ -22,6 +23,7 @@ class App extends React.Component {
         key: 2,
         header: 'League of Builds',
         position: 'Worked in a team of 2',
+        duration: 'ug. 10th, 2015 - Aug. 31st 2015',
         desc: [
           'API Challenge hosted by Riot Games.',
           'Created an web-based application using a RESTful API to allow users to create and download configuration files.',
@@ -32,8 +34,8 @@ class App extends React.Component {
         key: 3,
         header: 'Sync-View',
         position: 'Personal Project',
+        duration: 'Work in Progress',
         desc: [
-          'Work In Progress!',
           'Allows users to synchronously watch videos together.'
         ]
       }],

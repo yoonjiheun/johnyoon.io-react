@@ -6,6 +6,7 @@ export default class SidebarContent extends React.Component {
       return props.content.map(obj => {
         return <li key={obj.key}>
           <h1>{obj.header}</h1>
+          <h2>{obj.duration}</h2>
           <p>{obj.position}</p>
           {obj.desc.map((description, i) => {
             return <p key={i}>{description}</p>
