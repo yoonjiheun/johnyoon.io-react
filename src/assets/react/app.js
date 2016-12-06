@@ -38,13 +38,16 @@ class App extends React.Component {
         ]
       }],
       contact: [{
+        id: '#email',
         link: 'me@johnyoon.io',
         img: '../images/email.png'
       },{
+        id: '#github',
         link: 'https://www.github.com/yoonjiheun',
         img: '../images/github.png'
       },{
-        link: 'https://www.linkedin.com/in/jyoondev',
+        id: '#linkedin',
+        link: 'https://www.linkedin.com/in/devjyoon',
         img: '../images/linkedin.png'
       }]
     }

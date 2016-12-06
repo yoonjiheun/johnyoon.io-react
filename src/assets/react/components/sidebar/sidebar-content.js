@@ -13,6 +13,8 @@ export default class SidebarContent extends React.Component {
         })
       }
       return props.content.map((obj, i) => {
+        if(obj.link === 'me@johnyoon.io')
+          return <li key={i}><a href={'mailto:' + obj.link} id={obj.id}><img src={obj.img} /></a></li>
         return <li key={i}> <a href={obj.link}><img src={obj.img} /></a></li>
       })
     }
