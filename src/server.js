@@ -7,7 +7,6 @@ app.use(express.static(__dirname + '/assets'));
 
 app.use((req, res, next) => {
   if(req.url != '/' && req.url != '/resume' && req.method == 'GET') {
-    console.log('wtf');
     res.redirect('/');
   }
   next();
