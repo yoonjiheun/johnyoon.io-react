@@ -7,7 +7,11 @@ app.use(express.static(__dirname + '/assets'));
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/assets/page/page.html');
-})
+});
+
+app.get('/resume', (req, res) => {
+  res.sendFile(__dirname + '/assets/resume/resume.pdf');
+});
 
 const server = http.createServer(app)
   .listen(8080, () => {
