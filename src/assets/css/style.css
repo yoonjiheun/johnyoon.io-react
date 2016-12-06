@@ -94,6 +94,7 @@ a {
 }
 
 .details-wrap {
+  overflow:auto;
   padding-top: 30%
   height: 85vh;
 }
@@ -174,4 +175,23 @@ a {
 .left-sidebar:hover {
   opacity: 1;
   left: 0;
+}
+
+@media screen and (min-width: 1500px) {
+  h1 {
+    font-size: 5em;
+  }
+  .content-wrap h1 {
+    font-size: 5em;
+    text-align: left;
+  }
+  .details p {
+    font-size: 2em;
+  }
+  p {
+    font-size: 2em;
+  }
+  a {
+    font-size: 2em;
+  }
 }
