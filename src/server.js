@@ -6,9 +6,11 @@ const app = express ();
 app.use(express.static(__dirname + '/assets'));
 
 app.use((req, res, next) => {
-  if(req.url != '/' && req.method == 'GET')
+  if(req.url != '/' && req.url != '/resume' && req.method == 'GET') {
+    console.log('wtf');
     res.redirect('/');
-    next();
+  }
+  next();
 });
 
 app.get('/', (req, res) => {
