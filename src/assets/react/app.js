@@ -23,20 +23,33 @@ class App extends React.Component {
         key: 2,
         header: 'League of Builds',
         position: 'Worked in a team of 2',
-        duration: 'ug. 10th, 2015 - Aug. 31st 2015',
+        duration: 'Aug. 10th, 2015 - Aug. 31st 2015',
         desc: [
           'API Challenge hosted by Riot Games.',
           'Created an web-based application using a RESTful API to allow users to create and download configuration files.',
-          'Used the MEAN stack',
-          'Created a web scraper to allow user to use data from another website to create their configuration files'
+          'Used the MEAN stack.',
+          'Created a web scraper to allow user to use data from another website to create their configuration files.'
         ]
-      }, {
+      },{
         key: 3,
+        header: 'johnyoon.io',
+        position: 'Personal Project',
+        duration: 'Dec. 5, 2016-Dec. 7, 2016',
+        desc: [
+          'Created with React to learn component design pattern.',
+          'Still making UI fixes when time is avaliable!',
+          'Deployed on AWS with Node.js.',
+          'Used ES2016 syntax for both React and Node and used babel to transpile.',
+          'Bundled React with Webpack.'
+        ]
+      },{
+        key: 4,
         header: 'Sync-View',
         position: 'Personal Project',
         duration: 'Work in Progress',
         desc: [
-          'Allows users to synchronously watch videos together.'
+          'Allows users to synchronously watch videos together.',
+          'Using Angular 2 and Node.js.'
         ]
       }],
       contact: [{
