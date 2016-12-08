@@ -214,7 +214,7 @@ a {
   .sidebar span {
     font-size: 2em;
   }
-  
+
   p {
     font-size: 2em;
   }
@@ -232,6 +232,7 @@ a {
   }
 
   .content-wrap {
+    display: block;
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
@@ -240,20 +241,34 @@ a {
   }
 
   .content-wrap img {
+    display: block;
+    margin: 0 auto;
     height: 100%;
     min-width: 490px;
     width: 100%:
     height: 300px;
-    display: block;
-    float: left;
   }
 
   .details-wrap {
     height: 100%;
     width: 100%;
-    display: block;
-    float: left;
+    text-align: center;
   }
+
+  .details-wrap hr {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .details-wrap h1 {
+    text-align: center;
+  }
+
+  .details {
+    text-align: center;
+  }
+
 
   .links-wrap {
     float: right;
