@@ -3,7 +3,7 @@ const dev = { publicPath: 'http://localhost:8080/react', filename: 'app.bundle.j
 
 module.exports = {
   'entry': './src/assets/react/app.js',
-  'output': dev,
+  'output': production,
   'module': {
     'loaders': [
       {
