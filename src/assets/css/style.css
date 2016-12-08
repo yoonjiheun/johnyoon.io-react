@@ -12,6 +12,18 @@ p {
   margin: 0;
 }
 
+.mobile {
+  display: none;
+}
+
+.mobile-footer {
+  display: none;
+}
+
+.default-footer {
+  display: block;
+}
+
 .texts:hover {
   color: #008080;
   cursor: pointer;
@@ -229,6 +241,14 @@ a {
   #app {
     padding: 0;
     padding-top: 100px;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .default-footer {
+    display: none;
   }
 
   .content-wrap {
