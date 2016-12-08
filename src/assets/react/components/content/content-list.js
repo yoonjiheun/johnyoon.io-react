@@ -44,7 +44,8 @@ export default class ContentList extends React.Component {
         detailHeader: 'EXPERIENCE',
         details: [
           'Hover over the side bar that says Experience so I can show off my css skills!',
-          '<<<<<<<<<<<<<<<<<<<'
+          '<<<<<<<<<<<<<<<<<<<',
+          'If you don\'t see a side bar that means you\'re on mobile or your screen is too small :(, but my resume is avaliable at the top!'
       ],
         next: 'INTEREST',
         prev: 'SKILLS'
