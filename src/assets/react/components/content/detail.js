@@ -3,7 +3,7 @@ import React from 'react';
 export default class Detail extends React.Component {
   render () {
     return(
-      <div className="details-wrap">
+      <div className="details-wrap" id={this.props.id}>
         <div className="details">
           <h1>{this.props.header}</h1>
           <hr/>
